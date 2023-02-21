@@ -1,0 +1,19 @@
+:root {
+    --black: #0B0D17;
+    --paleBlue: #D0D6F9;
+    --white: #FFFFFF;
+  
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+  
+    --font-size-hd1: 150px;
+    --font-size-hd2: 100px;
+    --font-size-hd3: 56px;
+    --font-size-hd4: 32px;
+    --font-size-hd5: 28px;
+
+    --font-size-sh1: 28px;
+    --font-size-sh2: 14px;
+    --font-size-nav: 16px;
+  }

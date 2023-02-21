@@ -29,25 +29,30 @@ import Link from 'next/link'
 //   
 // }
 
+import { Homepage } from '../components/Homepage';
+
 
 
 function Home() {
   return (
+    <div>
+      <Homepage />
+    </div>
     // <HeadNav />
-    <ul>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/Destination">Destination</Link>
-      </li>
-      <li>
-        <Link href="/Crew">Crew</Link>
-      </li>
-      <li>
-        <Link href="/Technology">Technology</Link>
-      </li>
-    </ul>
+    // <ul>
+    //   <li>
+    //     <Link href="/">Home</Link>
+    //   </li>
+    //   <li>
+    //     <Link href="/Destination">Destination</Link>
+    //   </li>
+    //   <li>
+    //     <Link href="/Crew">Crew</Link>
+    //   </li>
+    //   <li>
+    //     <Link href="/Technology">Technology</Link>
+    //   </li>
+    // </ul>
   )
 }
 
