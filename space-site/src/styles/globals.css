@@ -43,10 +43,18 @@ a {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  padding: 0px;
+  padding: 0 0 0 20px;
   }
 
 #navPanel ul {
+}
+
+.line {
+  background-color:white;
+  height: .5px;
+  flex-grow: 10;
+  transform: translateX(20px);
+  z-index: 12;
 }
 
 #navPanel li {
@@ -56,7 +64,12 @@ a {
   padding: 0 25px 0 25px;
   margin: 0 5px 0 5px;
   height: 100%;
-  line-height: 5.5em;
+  line-height: 5.8em;
+  transition: border 200ms;
+}
+
+#navPanel li:hover {
+  border-bottom: 2px solid white;
 }
 
 @media (prefers-color-scheme: dark) {

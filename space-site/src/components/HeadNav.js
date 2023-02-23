@@ -3,16 +3,8 @@ import starIcon from './logo.svg';
 export function HeadNav() {
 
     const iconStyle = {
-      "border":"1px solid pink",
       "width":"48px",
       "height":"48px",
-    }
-
-    const lineStyle = {
-      "backgroundColor":"white",
-      "height":".5px",
-      "flexGrow":"10",
-      "transform":"translateX(20px)",
     }
 
 
@@ -21,8 +13,10 @@ export function HeadNav() {
 
     return (
     <header id="navHead">
-      <div id="icon" style={iconStyle}></div>
-      <div id="line" style={lineStyle}></div>
+      <div id="icon" style={iconStyle}>
+      <svg width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+      </div>
+      <div class="line"></div>
       <div id="navPanel">
         <ul>
           <li>Home</li>
