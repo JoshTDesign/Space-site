@@ -1,5 +1,5 @@
 export function Graphic() {
     return (
-    <p>Graphic</p>
+    <p  style={{"border":"1px solid red"}}>Graphic</p>
     )
   }
