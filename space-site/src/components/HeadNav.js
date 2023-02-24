@@ -7,10 +7,6 @@ export function HeadNav() {
       "height":"48px",
     }
 
-
-
-
-
     return (
     <header id="navHead">
       <div id="icon" style={iconStyle}>
@@ -19,10 +15,10 @@ export function HeadNav() {
       <div class="line"></div>
       <div id="navPanel">
         <ul>
-          <li>Home</li>
-          <li>Destination</li>
-          <li>Crew</li>
-          <li>Technology</li>
+          <li><span>00</span>Home</li>
+          <li><span>01</span>Destination</li>
+          <li><span>02</span>Crew</li>
+          <li><span>03</span>Technology</li>
         </ul>
       </div>
     </header>
