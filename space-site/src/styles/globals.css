@@ -13,6 +13,7 @@ font-family: 'Barlow Condensed', sans-serif;
 text-transform: uppercase;
 letter-spacing: 2.7px;
 font-size: 16px;
+/* background-color: pink; */
 }
 
 #navHead span {
@@ -65,15 +66,14 @@ a {
   }
 
 #navPanel {
-  background-color: rgba(255, 255, 255, .1);
-  border-radius: 10px 0 0 10px;
+  background-color: rgba(255, 255, 255, .06);
   backdrop-filter: blur(50px);
-  width: 60%;
+  width: 600px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: stretch;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 0px;
   }
 
 #navPanel ul {
@@ -91,7 +91,7 @@ a {
   /* text-decoration: none; */
   list-style-type: none;
   display: inline-block;
-  padding: 0 25px 0 25px;
+  padding: 0 15px 0 15px;
   margin: 0 5px 0 5px;
   height: 100%;
   line-height: 5.8em;
@@ -106,4 +106,66 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+/*-- for tablets --*/
+@media screen and (max-width: 870px) {
+  body {
+    border: 1px solid green;
+    background-image: url("../../public/home/background-home-mobile.jpg");
+    width: 100vw;
+    background-position-y: center;
+  }
+
+  #navHead span {
+    display: none;
+    }
+
+  #navHead li {
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+  }
+
+  .line {
+    display:none;
+  }
+
+  #navHead {
+    margin: 0px 0 40px 0;
+  }
+
+  #navPanel {
+    width: 500px;
+  }
+
+}
+
+/*-- for phones --*/
+@media screen and (max-width: 630px) {
+  body {
+    border: 1px solid pink;
+    background-image: url("../../public/home/background-home-mobile.jpg");
+    width: 100vw;
+    background-position-y: bottom;
+  }
+
+  #navHead span {
+    display: none;
+    }
+    
+  .line {
+    display:none;
+  }
+
+  #navHead {
+    margin: 0px 0 40px 0;
+  }
+
+  #navPanel {
+    width: 65%;
+
+  }
+
+
 }
